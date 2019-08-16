@@ -5,3 +5,4 @@ staticfiles
 db.sqlite3
 /temp/
 /cheerpj/
+__pycache__

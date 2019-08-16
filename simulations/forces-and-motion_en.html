@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <titleforces-and-motion_en</title> <script src="https://cjrtnc.leaningtech.com/1.4/loader.js">
+    </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+        <link rel="stylesheet" href="{% static "style.css"%}">
+</head>
+
+<body>
+    <div class="container row" style="width: 940px;">
+        <h1 class="indigo-text">Simulation</h1>
+        <div class="card-panel white" id="maincard">
+            <h2>forces-and-motion_en</h2>
+            <p>
+                Please wait for the simulation to load.  This could take some time.
+            </p>
+        </div>
+    </div>
+</body>
+<script>
+    maincard = document.getElementById("maincard")
+    cheerpjInit();
+    cheerpjCreateDisplay(900, 700, maincard);
+    cheerpjRunJar("/app/someurl/forces-and-motion_en.jar"); 
+</script>
+
+</html>
