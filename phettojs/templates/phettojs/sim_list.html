@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Phet to JS</title>
+</head>
+<body>
+    <h1>Simulations</h1>
+    {% for name in sim_names %}
+        <a href="/simulations/{{name}}">{{ name }}</a><br />
+    {% endfor %}
+</body>
+</html>
