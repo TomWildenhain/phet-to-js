@@ -1,2 +1,4 @@
 /phettojs/source_jars/
-/staticfiles/jars/*.gz
+/staticfiles/jars/*.js
+/staticfiles/jars/*.jar
+/phettojs/static/
