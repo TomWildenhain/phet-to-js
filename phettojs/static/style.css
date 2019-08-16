@@ -1,0 +1,57 @@
+/*
+color:textColor;
+*/
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: table;
+}
+body {
+  background-color: #eee;
+}
+.lang-tag
+{
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  color: #fff;
+  background-color: #03a9f4;
+}
+.project-header
+{
+  margin-bottom: 0px;
+}
+.project-date
+{
+  margin-bottom: 1.424rem;
+}
+a:active {
+  border-left-color: #03a9f4;
+  text-decoration: underline;
+}
+a:hover {
+  border-left-color: #03a9f4;
+  text-decoration: underline;
+}
+strong{
+  color: #3F51B5;
+}
+/*.page-footer{
+  background-color: grey;
+  display: table-row;
+  height: 0;
+  vertical-align:bottom;
+}*/
+h3{
+  font-size: 2rem;
+}
+.address-img{
+  height:1em;
+}
