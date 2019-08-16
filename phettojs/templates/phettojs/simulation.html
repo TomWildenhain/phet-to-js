@@ -25,7 +25,7 @@
     maincard = document.getElementById("maincard")
     cheerpjInit();
     cheerpjCreateDisplay(900, 700, maincard);
-    cheerpjRunJar("/app/{% static "jars" %}/{{sim_name}}.jar"); 
+    cheerpjRunJar("/app{% static "jars" %}/{{sim_name}}.jar"); 
 </script>
 
 </html>
