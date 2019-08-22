@@ -24,6 +24,8 @@
     maincard = document.getElementById("maincard")
     cheerpjInit();
     cheerpjCreateDisplay(900, 700, maincard);
+    display = document.getElementById("cheerpjDisplay")
+    display.style.touchAction = "none";
     cheerpjRunJar("/app/phet-to-js/jars/circuit-construction-kit-ac-virtual-lab_en.jar"); 
 </script>
 
